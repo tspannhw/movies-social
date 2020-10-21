@@ -12,4 +12,4 @@ def predict_sentiment(args):
     elif ss['compound'] < 0.00:
       sentiment = 'negative'
       
-    return sentiment
+    return {"response" : sentiment}
